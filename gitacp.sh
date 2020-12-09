@@ -1,7 +1,7 @@
 #!/bin/bash
 gitacp() {
 	git add *
-	git commit -m "$1"
+	git commit -m "$@"
 	git push origin master
 }
-gitacp "$1"
+gitacp "$@"
