@@ -1,8 +1,5 @@
-git init
+#!/bin/bash
+
 git add *
-git config user.email armand.broutin@gmail.com
-git config user.name ArmandBroutinDev
-git commit -m "remise dans le bain avec des commandes bash"
-git remote add origin https://github.com/ArmandBroutinDev/sbash.git
-git push -u origin master
+git commit -m "$0"
 git push origin master
